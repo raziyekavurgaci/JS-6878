@@ -1,0 +1,26 @@
+.tabs {
+  display: flex;
+}
+
+.btn {
+  padding: 10px;
+  border: 1px solid rgb(94, 89, 89);
+  background-color: grey;
+  text-align: center;
+}
+
+.btn.active {
+  background-color: #a04309;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}

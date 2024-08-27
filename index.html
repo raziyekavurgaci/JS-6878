@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="tabs">
+        <button onclick="hideShow()" class="btn">London</button>
+        <button onclick="hideShow2()" class="btn">Paris</button>
+        <button onclick="hideShow3()" class="btn">Tokyo</button>
+    </div>
+
+    <div class="tab-content">
+        <div id="tab1-content" class="tab-pane active">
+            <h2>London</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div id="tab2-content" class="tab-pane">
+            <h2>Paris</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div id="tab3-content" class="tab-pane">
+            <h2>Tokyo</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
